@@ -1,0 +1,41 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.hovering-link:hover{
+  background-color: royalblue;
+  font-size:20px
+}
+*{
+  margin:0px;
+  padding:0px;
+  color:white;
+}
+.title {
+  text-align:center; 
+  font-size:40px;
+  position:relative;
+  top:1px;
+  color:white;
+  margin-top:50px;
+}
+.background {
+  background-image: url('https://img.freepik.com/free-vector/hexagonal-black-background-modern-design_1017-37442.jpg');background-repeat:no-repeat;background-size:cover;
+}
+p {
+  text-align:center; padding:15px;font-size:20px;font-family:"Jost"
+}
+.font1 {
+  font-family:
+}
+.jumpscare1{
+  animation-name: jumpscare1;
+  animation-duration: 1000000s;
+  animation-delay:3s;
+  animation-iteration-count:infinite;
+}
+@keyframes jumpscare1 {
+  0%{background-image:url("https://i.ytimg.com/vi/uZpMmP5EUEI/sddefault.jpg");background-repeat:no-repeat;height: 500px; width:500px;display: block;margin-left: auto;margin-right: auto}
+  100%{background-image:url("https://i.ytimg.com/vi/uZpMmP5EUEI/sddefault.jpg");background-repeat:no-repeat;height: 500px; width:500px;display: block;margin-left: auto;margin-right: auto}
+}
